@@ -1,0 +1,583 @@
+﻿  gui.cpp
+  config.cpp
+  draw.cpp
+  fonts.cpp
+  button.cpp
+  game_card.cpp
+  helpers.cpp
+  notify.cpp
+  pages.cpp
+  textfield.cpp
+  window.cpp
+  imgui_impl_dx10.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_dx12.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui.cpp
+  imgui_draw.cpp
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(12,9): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59092,9):
+      see previous definition of 'DXGI_STATUS_OCCLUDED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(13,9): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59101,9):
+      see previous definition of 'DXGI_STATUS_CLIPPED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(14,9): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59110,9):
+      see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(15,9): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59119,9):
+      see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(16,9): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59128,9):
+      see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(17,9): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59137,9):
+      see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(18,9): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59146,9):
+      see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(21,9): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59161,9):
+      see previous definition of 'DXGI_ERROR_INVALID_CALL'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(22,9): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59170,9):
+      see previous definition of 'DXGI_ERROR_NOT_FOUND'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(23,9): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59179,9):
+      see previous definition of 'DXGI_ERROR_MORE_DATA'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(24,9): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59188,9):
+      see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(25,9): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59197,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(26,9): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59206,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(27,9): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59216,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(28,9): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59225,9):
+      see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(29,9): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59235,9):
+      see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(30,9): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59244,9):
+      see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(31,9): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59254,9):
+      see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(32,9): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59263,9):
+      see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(33,9): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59272,9):
+      see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(34,9): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59282,9):
+      see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(35,9): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59291,9):
+      see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d10.h(608,9): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59582,9):
+      see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d10.h(609,9): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx10.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59591,9):
+      see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(12,9): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59092,9):
+      see previous definition of 'DXGI_STATUS_OCCLUDED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(13,9): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59101,9):
+      see previous definition of 'DXGI_STATUS_CLIPPED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(14,9): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59110,9):
+      see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(15,9): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59119,9):
+      see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(16,9): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59128,9):
+      see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(17,9): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59137,9):
+      see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(18,9): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59146,9):
+      see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(21,9): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59161,9):
+      see previous definition of 'DXGI_ERROR_INVALID_CALL'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(22,9): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59170,9):
+      see previous definition of 'DXGI_ERROR_NOT_FOUND'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(23,9): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59179,9):
+      see previous definition of 'DXGI_ERROR_MORE_DATA'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(24,9): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59188,9):
+      see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(25,9): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59197,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(26,9): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59206,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(27,9): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59216,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(28,9): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59225,9):
+      see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(29,9): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59235,9):
+      see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(30,9): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59244,9):
+      see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(31,9): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59254,9):
+      see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(32,9): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59263,9):
+      see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(33,9): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59272,9):
+      see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(34,9): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59282,9):
+      see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(35,9): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59291,9):
+      see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d11.h(917,9): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59606,9):
+      see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d11.h(918,9): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59615,9):
+      see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d11.h(919,9): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59625,9):
+      see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d11.h(920,9): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59634,9):
+      see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+  
+  imgui_freetype.cpp
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d10.h(608,9): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59582,9):
+      see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d10.h(609,9): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file '../../backends/imgui_impl_dx11.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59591,9):
+      see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+  
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/helpers/config.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/widgets/pages.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/widgets/button.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/helpers/fonts.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/gui.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/widgets/game_card.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file 'main.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/widgets/window.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/widgets/notify.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\window.cpp(111,19): warning C4189: 'g': local variable is initialized but not referenced
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\window.cpp(161,19): warning C4189: 'g': local variable is initialized but not referenced
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\window.cpp(493,94): warning C4100: 'clamp': unreferenced parameter
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/widgets/helpers.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/helpers/draw.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\notify.cpp(37,152): warning C4100: 'type': unreferenced parameter
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\notify.cpp(37,80): warning C4100: 'notify_percentage': unreferenced parameter
+C:\Users\fresh\Downloads\BELLATRIX\framework\helpers\fonts.cpp(11,22): warning C4459: declaration of 'cfg' hides global declaration
+      C:\Users\fresh\Downloads\BELLATRIX\framework\headers\config.h(80,34):
+      see declaration of 'cfg'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\helpers\fonts.cpp(20,94): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\fresh\Downloads\BELLATRIX\framework\helpers\fonts.cpp(32,16): warning C4459: declaration of 'font' hides global declaration
+      C:\Users\fresh\Downloads\BELLATRIX\framework\headers\fonts.h(29,32):
+      see declaration of 'font'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\pages.cpp(31,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\fresh\Downloads\BELLATRIX\framework\helpers\draw.cpp(17,50): warning C4459: declaration of 'draw' hides global declaration
+      C:\Users\fresh\Downloads\BELLATRIX\framework\headers\draw.h(67,32):
+      see declaration of 'draw'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\pages.cpp(72,10): warning C4189: 'active': local variable is initialized but not referenced
+C:\Users\fresh\Downloads\BELLATRIX\framework\helpers\draw.cpp(138,43): warning C4459: declaration of 'draw' hides global declaration
+      C:\Users\fresh\Downloads\BELLATRIX\framework\headers\draw.h(67,32):
+      see declaration of 'draw'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\helpers\draw.cpp(153,56): warning C4459: declaration of 'font' hides global declaration
+      C:\Users\fresh\Downloads\BELLATRIX\framework\headers\fonts.h(29,32):
+      see declaration of 'font'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\helpers\draw.cpp(183,58): warning C4459: declaration of 'font' hides global declaration
+      C:\Users\fresh\Downloads\BELLATRIX\framework\headers\fonts.h(29,32):
+      see declaration of 'font'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\helpers\draw.cpp(254,77): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\fresh\Downloads\BELLATRIX\framework\headers\functions.h(16,31): warning C4459: declaration of 'var' hides global declaration
+  (compiling source file '../../../../framework/widgets/textfield.cpp')
+      C:\Users\fresh\Downloads\BELLATRIX\framework\settings\variables.h(61,37):
+      see declaration of 'var'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\helpers.cpp(42,19): warning C4189: 'g': local variable is initialized but not referenced
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\helpers.cpp(56,31): warning C4459: declaration of 'font' hides global declaration
+      C:\Users\fresh\Downloads\BELLATRIX\framework\headers\fonts.h(29,32):
+      see declaration of 'font'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\helpers.cpp(71,13): warning C4459: declaration of 'font' hides global declaration
+      C:\Users\fresh\Downloads\BELLATRIX\framework\headers\fonts.h(29,32):
+      see declaration of 'font'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\helpers.cpp(430,13): warning C4459: declaration of 'font' hides global declaration
+      C:\Users\fresh\Downloads\BELLATRIX\framework\headers\fonts.h(29,32):
+      see declaration of 'font'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\helpers.cpp(1208,124): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\helpers.cpp(1208,105): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\helpers.cpp(1208,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\helpers.cpp(1208,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\textfield.cpp(33,13): warning C4459: declaration of 'font' hides global declaration
+      C:\Users\fresh\Downloads\BELLATRIX\framework\headers\fonts.h(29,32):
+      see declaration of 'font'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(12,9): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59092,9):
+      see previous definition of 'DXGI_STATUS_OCCLUDED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(13,9): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59101,9):
+      see previous definition of 'DXGI_STATUS_CLIPPED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(14,9): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59110,9):
+      see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(15,9): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59119,9):
+      see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(16,9): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59128,9):
+      see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(17,9): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59137,9):
+      see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(18,9): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59146,9):
+      see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(21,9): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59161,9):
+      see previous definition of 'DXGI_ERROR_INVALID_CALL'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(22,9): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59170,9):
+      see previous definition of 'DXGI_ERROR_NOT_FOUND'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(23,9): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59179,9):
+      see previous definition of 'DXGI_ERROR_MORE_DATA'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(24,9): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59188,9):
+      see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(25,9): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59197,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(26,9): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59206,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(27,9): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59216,9):
+      see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(28,9): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59225,9):
+      see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(29,9): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59235,9):
+      see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(30,9): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59244,9):
+      see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(31,9): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59254,9):
+      see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(32,9): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59263,9):
+      see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(33,9): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59272,9):
+      see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(34,9): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59282,9):
+      see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\dxgitype.h(35,9): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59291,9):
+      see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d11.h(917,9): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59606,9):
+      see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d11.h(918,9): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59615,9):
+      see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d11.h(919,9): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59625,9):
+      see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d11.h(920,9): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59634,9):
+      see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+  
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\textfield.cpp(1278,19): warning C4189: 'col': local variable is initialized but not referenced
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\textfield.cpp(1346,19): warning C4189: 'col': local variable is initialized but not referenced
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\textfield.cpp(1432,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d10.h(608,9): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59582,9):
+      see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\dxsdk\Include\d3d10.h(609,9): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59591,9):
+      see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\main.cpp(41,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\main.cpp(35,87): warning C4100: 'nCmdShow': unreferenced parameter
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\main.cpp(35,72): warning C4100: 'lpCmdLine': unreferenced parameter
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\main.cpp(35,51): warning C4100: 'hPrevInstance': unreferenced parameter
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\main.cpp(35,30): warning C4100: 'hInstance': unreferenced parameter
+C:\Users\fresh\Downloads\BELLATRIX\framework\widgets\window.cpp(909,21): warning C4505: 'nav_restore_last_child_nav_window': unreferenced function with internal linkage has been removed
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\imstb_textedit.h(743,13): warning C4505: 'ImStb::stb_textedit_text': unreferenced function with internal linkage has been removed
+  (compiling source file '../../../../framework/widgets/textfield.cpp')
+  
+C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\imstb_textedit.h(768,13): warning C4505: 'ImStb::stb_textedit_key': unreferenced function with internal linkage has been removed
+  (compiling source file '../../../../framework/widgets/textfield.cpp')
+  
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2338 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+freetype.lib(ftinit.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftinit.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftbase.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftbase.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftsynth.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftsynth.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(autofit.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(autofit.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(truetype.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(truetype.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(type1.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(type1.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(cff.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(cff.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(type1cid.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(type1cid.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(pfr.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(pfr.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(type42.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(type42.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(winfnt.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(winfnt.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(pcf.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(pcf.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(bdf.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(bdf.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(psaux.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(psaux.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(psmodule.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(psmodule.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(pshinter.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(pshinter.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(sfnt.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(sfnt.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(smooth.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(smooth.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(raster.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(raster.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(sdf.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(sdf.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(svg.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(svg.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftsystem.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftsystem.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftbitmap.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftbitmap.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftgzip.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftgzip.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftlzw.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftlzw.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+freetype.lib(ftdebug.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype.lib(ftdebug.obj)' or at 'C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\freetype.pdb'; linking object as if no debug info
+  example_win32_directx11.vcxproj -> C:\Users\fresh\Downloads\BELLATRIX\thirdparty\imgui\examples\example_win32_directx11\Release\example_win32_directx11.exe
